@@ -1,4 +1,4 @@
-package singleton;
+package com.design.pattern.singleton;
 
 /**
  * 静态内部实例化模式(IoDH技术-Initialization Demand Holde)

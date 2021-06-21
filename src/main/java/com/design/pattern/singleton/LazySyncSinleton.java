@@ -1,4 +1,4 @@
-package singleton;
+package com.design.pattern.singleton;
 
 /**
  * 懒汉模式-使用时进行初始化，为解决线程安全问题引入同步锁

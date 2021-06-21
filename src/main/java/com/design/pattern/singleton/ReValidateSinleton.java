@@ -1,4 +1,4 @@
-package singleton;
+package com.design.pattern.singleton;
 
 /**
  * 双重校验模式-在懒汉模式同步锁的情况下,初始化实例时，再次判断是否为空，无线程安全问题，且实现了延迟加载
