@@ -1,7 +1,7 @@
 package com.design.pattern.factory.abstracted;
 
-import com.design.pattern.factory.product.mobile.MobileProduct;
-import com.design.pattern.factory.product.pc.PCProduct;
+import com.design.pattern.factory.pojo.mobile.MobileProduct;
+import com.design.pattern.factory.pojo.pc.PCProduct;
 
 /**
  * @author 玄墨

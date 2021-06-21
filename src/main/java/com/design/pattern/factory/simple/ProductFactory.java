@@ -1,9 +1,9 @@
 package com.design.pattern.factory.simple;
 
-import com.design.pattern.factory.product.mobile.AppleMobileProduct;
-import com.design.pattern.factory.product.mobile.HuaweiMobileProduct;
-import com.design.pattern.factory.product.mobile.MobileProduct;
-import com.design.pattern.factory.product.mobile.XiaoMiMobileProduct;
+import com.design.pattern.factory.pojo.mobile.AppleMobileProduct;
+import com.design.pattern.factory.pojo.mobile.HuaweiMobileProduct;
+import com.design.pattern.factory.pojo.mobile.MobileProduct;
+import com.design.pattern.factory.pojo.mobile.XiaoMiMobileProduct;
 
 /**
  * 工厂类-根据入参生成具体产品实例

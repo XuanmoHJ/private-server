@@ -1,4 +1,4 @@
-package com.design.pattern.factory.product.pc;
+package com.design.pattern.factory.pojo.mobile;
 
 /**
  * 子类-小米
@@ -6,11 +6,11 @@ package com.design.pattern.factory.product.pc;
  * @author 玄墨
  * @date 2021/6/21 5:04 下午
  */
-public class XiaoMiPCProduct extends PCProduct {
+public class XiaoMiMobileProduct extends MobileProduct {
 
     @Override
     public String display() {
-        return "我是小米电脑产品";
+        return "我是小米移动端产品";
     }
 
     @Override

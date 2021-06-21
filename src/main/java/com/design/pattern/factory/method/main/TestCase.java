@@ -2,7 +2,7 @@ package com.design.pattern.factory.method.main;
 
 import com.design.pattern.factory.method.AbstractMobileFactory;
 import com.design.pattern.factory.method.AppleMobileFactory;
-import com.design.pattern.factory.product.mobile.MobileProduct;
+import com.design.pattern.factory.pojo.mobile.MobileProduct;
 
 /**
  * @author 玄墨

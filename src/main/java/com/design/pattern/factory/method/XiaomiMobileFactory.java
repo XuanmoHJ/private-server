@@ -1,7 +1,7 @@
 package com.design.pattern.factory.method;
 
-import com.design.pattern.factory.product.mobile.MobileProduct;
-import com.design.pattern.factory.product.mobile.XiaoMiMobileProduct;
+import com.design.pattern.factory.pojo.mobile.MobileProduct;
+import com.design.pattern.factory.pojo.mobile.XiaoMiMobileProduct;
 
 /**
  * @author 玄墨

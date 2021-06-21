@@ -1,4 +1,4 @@
-package com.design.pattern.factory.product.pc;
+package com.design.pattern.factory.pojo.mobile;
 
 /**
  * 子类-华为
@@ -6,11 +6,11 @@ package com.design.pattern.factory.product.pc;
  * @author 玄墨
  * @date 2021/6/21 5:04 下午
  */
-public class HuaweiPCProduct extends PCProduct {
+public class HuaweiMobileProduct extends MobileProduct {
 
     @Override
     public String display() {
-        return "我是华为电脑产品";
+        return "我是华为移动端产品";
     }
 
     @Override

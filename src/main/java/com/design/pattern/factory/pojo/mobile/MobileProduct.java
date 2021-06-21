@@ -1,4 +1,4 @@
-package com.design.pattern.factory.product.pc;
+package com.design.pattern.factory.pojo.mobile;
 
 import lombok.Data;
 
@@ -11,7 +11,7 @@ import java.io.Serializable;
  * @date 2021/6/21 4:37 下午
  */
 @Data
-public abstract class PCProduct implements Serializable {
+public abstract class MobileProduct implements Serializable {
 
     /**
      * 规格
@@ -39,14 +39,9 @@ public abstract class PCProduct implements Serializable {
     private double weigth;
 
     /**
-     * 版本
+     * 是否曲面屏
      */
-    private String version;
-
-    /**
-     * 芯片
-     */
-    private String chip;
+    private boolean curvedScreen;
 
     /**
      * 展示
