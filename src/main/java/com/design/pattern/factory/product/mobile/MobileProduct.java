@@ -1,4 +1,4 @@
-package com.design.pattern.factory.simple.product;
+package com.design.pattern.factory.product.mobile;
 
 import lombok.Data;
 
@@ -6,6 +6,7 @@ import java.io.Serializable;
 
 /**
  * 产品抽象类，所有产品的父类，提供公共信息
+ *
  * @author 玄墨
  * @date 2021/6/21 4:37 下午
  */
@@ -44,12 +45,14 @@ public abstract class MobileProduct implements Serializable {
 
     /**
      * 展示
+     *
      * @return
      */
     public abstract String display();
 
     /**
      * 特性
+     *
      * @return
      */
     public abstract String feature();

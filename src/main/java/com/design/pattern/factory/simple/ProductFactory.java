@@ -1,14 +1,14 @@
 package com.design.pattern.factory.simple;
 
-import com.design.pattern.factory.simple.product.AppleProduct;
-import com.design.pattern.factory.simple.product.HuaweiProduct;
-import com.design.pattern.factory.simple.product.MobileProduct;
-import com.design.pattern.factory.simple.product.XiaoMiProduct;
+import com.design.pattern.factory.product.mobile.AppleMobileProduct;
+import com.design.pattern.factory.product.mobile.HuaweiMobileProduct;
+import com.design.pattern.factory.product.mobile.MobileProduct;
+import com.design.pattern.factory.product.mobile.XiaoMiMobileProduct;
 
 /**
  * 工厂类-根据入参生成具体产品实例
  *
- * @author xiehejun(玄墨)
+ * @author 玄墨
  * @date 2021/6/18 2:58 下午
  */
 public class ProductFactory {
@@ -16,17 +16,18 @@ public class ProductFactory {
 
     /**
      * 生成产品
+     *
      * @param type
      * @return
      */
-    public MobileProduct genarateProduct(ProductType type){
-        switch (type){
+    public static MobileProduct genarateProduct(ProductType type) {
+        switch (type) {
             case APPLE:
-                return new AppleProduct();
+                return new AppleMobileProduct();
             case HUAWEI:
-                return new HuaweiProduct();
+                return new HuaweiMobileProduct();
             case XIAOMI:
-                return new XiaoMiProduct();
+                return new XiaoMiMobileProduct();
             default:
                 return null;
         }
@@ -34,10 +35,10 @@ public class ProductFactory {
     }
 
 
-    public enum ProductType{
-        APPLE(0,"苹果"),
-        HUAWEI(1,"苹果"),
-        XIAOMI(2,"苹果"),
+    public enum ProductType {
+        APPLE(0, "苹果"),
+        HUAWEI(1, "苹果"),
+        XIAOMI(2, "苹果"),
         ;
 
         private int code;
