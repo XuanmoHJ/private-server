@@ -1,4 +1,4 @@
-package com.design.pattern.factory.abstracted;
+package com.design.pattern.factory.abstractly;
 
 import com.design.pattern.factory.pojo.mobile.AppleMobileProduct;
 import com.design.pattern.factory.pojo.mobile.MobileProduct;

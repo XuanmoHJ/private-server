@@ -1,7 +1,7 @@
-package com.design.pattern.factory.abstracted.main;
+package com.design.pattern.factory.abstractly.main;
 
-import com.design.pattern.factory.abstracted.AbstractFactory;
-import com.design.pattern.factory.abstracted.AppleFactory;
+import com.design.pattern.factory.abstractly.AbstractFactory;
+import com.design.pattern.factory.abstractly.AppleFactory;
 import com.design.pattern.factory.pojo.mobile.MobileProduct;
 import com.design.pattern.factory.pojo.pc.PCProduct;
 

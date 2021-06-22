@@ -1,4 +1,4 @@
-package com.design.pattern.factory.abstracted;
+package com.design.pattern.factory.abstractly;
 
 import com.design.pattern.factory.pojo.mobile.MobileProduct;
 import com.design.pattern.factory.pojo.pc.PCProduct;
