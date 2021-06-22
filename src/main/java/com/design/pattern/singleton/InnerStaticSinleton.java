@@ -12,12 +12,12 @@ public class InnerStaticSinleton {
 
     ;
 
-    private static class Holde {
-        private static InnerStaticSinleton instance = new InnerStaticSinleton();
-    }
-
     public static InnerStaticSinleton getInstance() {
         return Holde.instance;
+    }
+
+    private static class Holde {
+        private static InnerStaticSinleton instance = new InnerStaticSinleton();
     }
 
 }
