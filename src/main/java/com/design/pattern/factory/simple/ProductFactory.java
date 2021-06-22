@@ -37,8 +37,8 @@ public class ProductFactory {
 
     public enum ProductType {
         APPLE(0, "苹果"),
-        HUAWEI(1, "苹果"),
-        XIAOMI(2, "苹果"),
+        HUAWEI(1, "华为"),
+        XIAOMI(2, "小米"),
         ;
 
         private int code;
