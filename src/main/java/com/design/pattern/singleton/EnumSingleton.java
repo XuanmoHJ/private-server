@@ -7,10 +7,18 @@ package com.design.pattern.singleton;
  * @author 玄墨
  * @date 2021/6/18 10:15 上午
  */
-public enum EnumSingleton {
-    INSTANCE;
+public class EnumSingleton {
+    private EnumSingleton(){}
 
-    public static EnumSingleton getInstance() {
-        return INSTANCE;
+    public enum SingletonEnum {
+        SINGLETON;
+        private EnumSingleton instance;
+
+        SingletonEnum() {
+            instance = new EnumSingleton();
+        }
+        public EnumSingleton getInstance() {
+            return instance;
+        }
     }
 }
