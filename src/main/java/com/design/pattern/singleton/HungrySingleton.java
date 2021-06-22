@@ -6,15 +6,15 @@ package com.design.pattern.singleton;
  * @author 玄墨
  * @date 2021/6/17 8:51 下午
  */
-public class HungrySinleton {
-    private static HungrySinleton instance = new HungrySinleton();
+public class HungrySingleton {
+    private static HungrySingleton instance = new HungrySingleton();
 
-    private HungrySinleton() {
+    private HungrySingleton() {
     }
 
     ;
 
-    public static HungrySinleton getInstance() {
+    public static HungrySingleton getInstance() {
         return instance;
     }
 }

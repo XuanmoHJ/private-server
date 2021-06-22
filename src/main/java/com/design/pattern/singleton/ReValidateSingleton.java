@@ -6,19 +6,19 @@ package com.design.pattern.singleton;
  * @author 玄墨
  * @date 2021/6/17 8:51 下午
  */
-public class ReValidateSinleton {
-    private static ReValidateSinleton instance = null;
+public class ReValidateSingleton {
+    private static ReValidateSingleton instance = null;
 
-    private ReValidateSinleton() {
+    private ReValidateSingleton() {
     }
 
     ;
 
-    public static ReValidateSinleton getInstance() {
+    public static ReValidateSingleton getInstance() {
         if (instance == null) {
-            synchronized (ReValidateSinleton.class) {
+            synchronized (ReValidateSingleton.class) {
                 if (instance == null) {
-                    instance = new ReValidateSinleton();
+                    instance = new ReValidateSingleton();
                 }
             }
         }

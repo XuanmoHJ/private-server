@@ -7,17 +7,17 @@ package com.design.pattern.singleton;
  * @author 玄墨
  * @date 2021/6/17 8:51 下午
  */
-public class LazySinletonUnSave {
-    private static LazySinletonUnSave instance = null;
+public class LazySingletonUnSave {
+    private static LazySingletonUnSave instance = null;
 
-    private LazySinletonUnSave() {
+    private LazySingletonUnSave() {
     }
 
     ;
 
-    public static LazySinletonUnSave getInstance() {
+    public static LazySingletonUnSave getInstance() {
         if (instance == null) {
-            instance = new LazySinletonUnSave();
+            instance = new LazySingletonUnSave();
         }
         return instance;
 

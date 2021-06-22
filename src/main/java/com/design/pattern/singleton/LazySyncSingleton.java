@@ -7,18 +7,18 @@ package com.design.pattern.singleton;
  * @author 玄墨
  * @date 2021/6/17 8:51 下午
  */
-public class LazySyncSinleton {
-    private static LazySyncSinleton instance = null;
+public class LazySyncSingleton {
+    private static LazySyncSingleton instance = null;
 
-    private LazySyncSinleton() {
+    private LazySyncSingleton() {
     }
 
     ;
 
-    public static LazySyncSinleton getInstance() {
+    public static LazySyncSingleton getInstance() {
         if (instance == null) {
-            synchronized (LazySyncSinleton.class) {
-                instance = new LazySyncSinleton();
+            synchronized (LazySyncSingleton.class) {
+                instance = new LazySyncSingleton();
             }
         }
         return instance;

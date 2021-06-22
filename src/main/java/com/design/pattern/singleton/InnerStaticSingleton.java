@@ -6,18 +6,18 @@ package com.design.pattern.singleton;
  * @author 玄墨
  * @date 2021/6/18 10:07 上午
  */
-public class InnerStaticSinleton {
-    private InnerStaticSinleton() {
+public class InnerStaticSingleton {
+    private InnerStaticSingleton() {
     }
 
     ;
 
-    public static InnerStaticSinleton getInstance() {
+    public static InnerStaticSingleton getInstance() {
         return Holde.instance;
     }
 
     private static class Holde {
-        private static InnerStaticSinleton instance = new InnerStaticSinleton();
+        private static InnerStaticSingleton instance = new InnerStaticSingleton();
     }
 
 }
