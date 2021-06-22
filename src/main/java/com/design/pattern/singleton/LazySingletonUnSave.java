@@ -13,8 +13,6 @@ public class LazySingletonUnSave {
     private LazySingletonUnSave() {
     }
 
-    ;
-
     public static LazySingletonUnSave getInstance() {
         if (instance == null) {
             instance = new LazySingletonUnSave();

@@ -13,8 +13,6 @@ public class LazySyncSingleton {
     private LazySyncSingleton() {
     }
 
-    ;
-
     public static LazySyncSingleton getInstance() {
         if (instance == null) {
             synchronized (LazySyncSingleton.class) {

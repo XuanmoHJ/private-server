@@ -10,8 +10,6 @@ public class InnerStaticSingleton {
     private InnerStaticSingleton() {
     }
 
-    ;
-
     public static InnerStaticSingleton getInstance() {
         return Holde.instance;
     }

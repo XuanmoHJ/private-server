@@ -12,8 +12,6 @@ public class ReValidateSingleton {
     private ReValidateSingleton() {
     }
 
-    ;
-
     public static ReValidateSingleton getInstance() {
         if (instance == null) {
             synchronized (ReValidateSingleton.class) {
